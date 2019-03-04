@@ -63,7 +63,7 @@ $(function () {
             });
         },
         error: function () {
-            alert("树形结构加载失败！")
+            //alert("树形结构加载失败！")
         }
     });
 })

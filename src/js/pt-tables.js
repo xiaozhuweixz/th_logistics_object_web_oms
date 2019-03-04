@@ -180,7 +180,7 @@ function deleteItem(e) {
     alert('删除操作，序号' + e)
 }
 
-function editItem(e) {
+/*function editItem(e) {
     layer.open({
         type: 2,//0（信息框，默认）1（页面层）2（iframe层）3（加载层）4（tips层）
         title: '<span class="text-color">新增费项信息</span>',//请修改span中间的内容
@@ -189,11 +189,11 @@ function editItem(e) {
         shade: 0.6,
         maxmin: false,//开启最大化最小化按钮
         area: ['62.5%', '83%'],//此处可以改为100%，该数值按UI图比例算出
-        content: 'content.html'//如果不想出现滚动条['content.html', 'no']
-    });
-}
 
-function lookItem(e) {
+    });
+}*/
+
+/*function lookItem(e) {
     layer.open({
         type: 2,//0（信息框，默认）1（页面层）2（iframe层）3（加载层）4（tips层）
         title: '<span class="text-color">查看费项信息</span>',//请修改span中间的内容
@@ -202,9 +202,9 @@ function lookItem(e) {
         shade: 0.6,
         maxmin: false,//开启最大化最小化按钮
         area: ['62.5%', '83%'],//此处可以改为100%，该数值按UI图比例算出
-        content: 'look.html'//如果不想出现滚动条['content.html', 'no']
+
     });
-}
+}*/
 $.fn.bootstrapTable.locales['zh-CN'] = {
     formatLoadingMessage: function () {
         return '正在努力地加载数据中，请稍候……';
